@@ -1,0 +1,25 @@
+{
+    "name": "personal-assistant",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon bot.js",
+        "start": "node bot.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arbaz52/personal-assistant.git"
+    },
+    "author": "arbaz ajaz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arbaz52/personal-assistant/issues"
+    },
+    "homepage": "https://github.com/arbaz52/personal-assistant#readme",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.4"
+    }
+}
